@@ -10,7 +10,7 @@ const bookCount = computed(() => {
   return author.books.length > 0 ? 'Yes' : 'No';
 });
 
-const currentTime = ref(new Date());
+const currentTime = ref<Date>(new Date());
 
 const now = computed(() => {
   setTimeout(() => {
