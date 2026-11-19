@@ -9,8 +9,8 @@ import { ref, computed } from "vue";
 const firstName = ref<string>("John");
 const lastName = ref<string>("Doe");
 
-    // TODO: input で文字を入力するたびにスペースが挿入される問題を解決する必要がある
 const fullName = computed({
+    // getter関数ではリアクティブなプロパティを更新せず、値を返すだけにする
   get() {
     return [firstName.value, lastName.value].filter(Boolean).join(" ");
   },
