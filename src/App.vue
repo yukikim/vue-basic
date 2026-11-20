@@ -3,6 +3,8 @@ import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import MyTest from './components/MyTest.vue'
 import MyTest2 from './components/MyTest2.vue'
+import BindClass from './components/BindClass.vue'
+import BindStyle from './components/BindStyle.vue'
 </script>
 
 <template>
@@ -17,6 +19,8 @@ import MyTest2 from './components/MyTest2.vue'
   <main>
     <MyTest />
     <MyTest2 />
+    <BindClass class="custom-class" />
+    <BindStyle />
   </main>
 </template>
 
