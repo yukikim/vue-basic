@@ -5,6 +5,7 @@ import MyTest from './components/MyTest.vue'
 import MyTest2 from './components/MyTest2.vue'
 import BindClass from './components/BindClass.vue'
 import BindStyle from './components/BindStyle.vue'
+import Conditional from './components/Conditional.vue'
 </script>
 
 <template>
@@ -22,6 +23,10 @@ import BindStyle from './components/BindStyle.vue'
     <BindClass class="custom-class" />
     <BindStyle />
   </main>
+
+  <section id="grid-3">
+    <Conditional />
+  </section>
 </template>
 
 <style scoped>
