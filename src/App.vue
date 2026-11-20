@@ -6,6 +6,7 @@ import MyTest2 from './components/MyTest2.vue'
 import BindClass from './components/BindClass.vue'
 import BindStyle from './components/BindStyle.vue'
 import Conditional from './components/Conditional.vue'
+import Array from './components/Array.vue'
 </script>
 
 <template>
@@ -26,6 +27,7 @@ import Conditional from './components/Conditional.vue'
 
   <section id="grid-3">
     <Conditional />
+    <Array />
   </section>
 </template>
 
